@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/light360-frontend/static/css/main.2b129a7d.css",
+    "main.js": "/light360-frontend/static/js/main.82f46f7b.js",
+    "index.html": "/light360-frontend/index.html",
+    "main.2b129a7d.css.map": "/light360-frontend/static/css/main.2b129a7d.css.map",
+    "main.82f46f7b.js.map": "/light360-frontend/static/js/main.82f46f7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b129a7d.css",
+    "static/js/main.82f46f7b.js"
+  ]
+}
