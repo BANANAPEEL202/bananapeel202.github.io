@@ -2,6 +2,7 @@
   "name": "light360-frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bananapeel202.github.io/light360-frontend",
   "dependencies": {
     "@mantine/core": "^7.14.3",
     "@mantine/hooks": "^7.14.3",
@@ -17,6 +18,8 @@
     "webpack-dev-server": "^4.11.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
