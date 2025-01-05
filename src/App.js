@@ -18,7 +18,7 @@ const App = () => {
   const openLink = (action) => {
     try {
       // Open the link in a new tab
-      window.open(`http://10.89.26.143/control?action=${action}`, '_blank');
+      window.open(`http://10.89.13.89/control?action=${action}`, '_blank');
 
       // Update the state
       setCurrentMode(action);
